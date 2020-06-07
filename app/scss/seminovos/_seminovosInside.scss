@@ -1,0 +1,142 @@
+.carro-interna {
+  padding: 32px 0;
+}
+
+.carro-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.carro-dados {
+  h2 {
+    color: #183250;
+  }
+
+  p {
+    color: #183250;
+    font-size: 14px;
+  }
+}
+
+.carro-galery {
+  width: 100%;
+  margin-top: 16px;
+
+  .carro-galery-destaque {
+    width: 100%;
+    height: 260px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .carro-galery-imagens {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 18vw;
+    gap: 16px;
+
+    button {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      background-color: transparent;
+      border: none;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.carro-info {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+
+  .carro-info-preco {
+    position: relative;
+    width: 160px;
+    border-bottom: 48px solid $red;
+    border-left: 16px solid transparent;
+    align-self: flex-end;
+
+    strong {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 48px;
+      padding: 0 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+
+  .carro-info-descricao {
+    width: 100%;
+    margin: 32px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    color: $grey;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .carro-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+  }
+
+  .carro-galery {
+    margin-top: 32px;
+
+    .carro-galery-destaque {
+      height: 320px;
+    }
+
+    .carro-galery-imagens {
+      grid-template-rows: 150%;
+    }
+  }
+
+  .carro-info {
+    margin-top: 96px;
+
+    .carro-info-preco {
+      width: 200px;
+      border-bottom-width: 60px;
+      border-left-width: 26px;
+
+      strong {
+        height: 60px;
+        font-size: 26px;
+      }
+    }
+
+    .carro-info-descricao {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@import './proposta';
+
+.seminovos-more {
+  margin-top: 64px;
+}

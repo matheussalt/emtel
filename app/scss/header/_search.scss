@@ -1,0 +1,38 @@
+.menu-search {
+  width: 180px;
+  height: 26px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #51647b;
+
+  input {
+    width: 140px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+
+    &::placeholder {
+      color: #ffffff;
+      opacity: 0.5;
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+
+    svg {
+      width: 16px;
+      height: 16px;
+      fill: #fff;
+    }
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .menu-search {
+    margin-right: 32px;
+  }
+}

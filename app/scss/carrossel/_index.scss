@@ -1,0 +1,46 @@
+.carrossel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+
+  button {
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate3d(0, -50%, 0);
+    background-color: $darkBlue;
+    border: none;
+    z-index: 99;
+    cursor: pointer;
+
+    &.carrossel-left {
+      right: unset;
+      left: 0;
+
+      img {
+        transform: rotate(180deg);
+      }
+    }
+
+    &:hover {
+      background-color: $red;
+    }
+  }
+
+  .carrossel-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    transition: 0.3s transform ease;
+
+    .carrossel-item {
+      margin-right: 32px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

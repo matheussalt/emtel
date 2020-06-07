@@ -1,0 +1,101 @@
+.filter {
+  width: 100%;
+
+  &.filter-home {
+    transform: translate3d(0, -30%, 0);
+  }
+
+  form {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: $red;
+
+    .filter-inputs {
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      background-color: #fff;
+      border: none;
+    }
+
+    .filter-preco {
+      width: 100%;
+      margin: 16px 0;
+
+      span {
+        display: block;
+        color: #fff;
+        text-align: center;
+      }
+
+      .filter-preco-control {
+        position: relative;
+        width: 100%;
+        margin: 16px 0;
+
+        .control-line {
+          width: 100%;
+          height: 2px;
+          background-color: $darkRed;
+        }
+
+        .control-dot {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 16px;
+          height: 16px;
+          background-color: $darkRed;
+          transform: translate3d(-50%, -50%, 0);
+          border-radius: 50%;
+        }
+      }
+
+      .control-values {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    button {
+      padding: 16px 32px;
+      align-self: center;
+      background-color: $darkRed;
+      border: 1px solid $darkRed;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.05rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .filter form {
+    padding: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .filter-inputs {
+      width: 450px;
+
+      input {
+        padding: 16px;
+      }
+    }
+
+    .filter-preco {
+      flex: 1;
+      margin: 0 32px;
+    }
+  }
+}

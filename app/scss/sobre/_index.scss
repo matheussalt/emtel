@@ -1,0 +1,28 @@
+.sobre {
+  padding: 0 0 64px;
+}
+
+.sobre-content {
+  color: #585858;
+
+  p {
+    margin: 1rem 0;
+  }
+}
+
+.social {
+  margin: 32px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 16px);
+  gap: 16px;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    color: $darkBlue;
+  }
+}
+
+.img-sobre {
+  width: 100%;
+}

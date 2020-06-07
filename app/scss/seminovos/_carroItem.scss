@@ -1,0 +1,55 @@
+.carro-item {
+  .carro-item-img {
+    width: 100%;
+    height: 220px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .carro-item-txt {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+
+    .carro-item-info {
+      display: flex;
+      flex-direction: column;
+
+      strong {
+        color: $darkBlue;
+      }
+
+      span {
+        color: $darkBlue;
+        font-size: 12px;
+      }
+    }
+
+    .carro-item-preco {
+      position: relative;
+      width: 120px;
+      border-bottom: 48px solid $red;
+      border-left: 16px solid transparent;
+
+      strong {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 48px;
+        padding: 0 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: normal;
+      }
+    }
+  }
+}

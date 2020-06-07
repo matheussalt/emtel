@@ -1,0 +1,21 @@
+.seminovos {
+  width: 100%;
+}
+
+.seminovos-wrapper {
+  display: grid;
+  gap: 32px;
+  padding: 64px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .seminovos-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .seminovos-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
