@@ -2,6 +2,7 @@ import './style.scss';
 import menu from './js/menu';
 import toggleCheckbox from './js/toggleCheckbox';
 import carrossel from './js/carrossel';
+import filter from './js/filter';
 import './js/modernizr';
 
 menu('.menu-hamb', '.menu-menutopo-container');
@@ -41,3 +42,5 @@ carrossel(
   '.blog-home .carrossel-left',
   '.blog-home .carrossel-right'
 );
+
+filter();

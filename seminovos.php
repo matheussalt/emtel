@@ -19,18 +19,17 @@ get_header(); ?>
     <div class="filter">
       <form>
         <div class="filter-inputs">
-          <input type="text" name="nome" placeholder="Qual carro?" />
-          <input type="text" name="marca" placeholder="Marca" />
-          <input type="text" name="modelo" placeholder="Modelo" />
-          <input type="number" name="ano" placeholder="Ano" />
+          <input id="nome" type="text" name="nome" placeholder="Qual carro?" />
+          <input id="marca" type="text" name="marca" placeholder="Marca" />
+          <input id="modelo" type="text" name="modelo" placeholder="Modelo" />
+          <input id="ano" type="number" min="1970" max="2040" name="ano" placeholder="Ano" />
         </div>
 
         <div class="filter-preco">
           <span>Valor</span>
 
           <div class="filter-preco-control">
-            <span class="control-line"></span>
-            <span class="control-dot"></span>
+            <input id="valor" type="range" id="vol" name="vol" min="0" max="100">
           </div>
 
           <div class="control-values">
@@ -44,7 +43,68 @@ get_header(); ?>
     </div>
 
     <div class="seminovos-wrapper">
-      <?php wp_reset_query(); query_posts( array( 'post_type' => 'seminovo', 'posts_per_page' => '9' ) );  ?>
+      <?php 
+      $nome = $_GET["nome"];
+      $marca = $_GET["marca"];
+      $modelo = $_GET["modelo"];
+      $ano = $_GET["ano"];
+      $valor = $_GET["valor"];
+
+      $metaArray = array('relation' => 'AND');
+
+      if (isset($nome) && !empty($nome)) {
+        array_push($metaArray, array(
+          'key' => 'nome',
+          'value' => $nome,
+          'compare' => '='
+        ));
+      }
+      
+      if (isset($marca) && !empty($marca)) {
+        array_push($metaArray, array(
+          'key' => 'marca',
+          'value' => $marca,
+          'compare' => '='
+        ));
+      }
+      
+      if (isset($modelo) && !empty($modelo)) {
+        array_push($metaArray, array(
+          'key' => 'modelo',
+          'value' => $modelo,
+          'compare' => '='
+        ));
+      }
+      
+      if (isset($ano) && !empty($ano)) {
+        array_push($metaArray, array(
+          'key' => 'ano',
+          'value' => $ano,
+          'compare' => '='
+        ));
+      }
+      
+      if (isset($valor) && !empty($valor)) {
+        array_push($metaArray, array(
+          'key' => 'valor',
+          'value' => $valor + 10000,
+          'compare' => '<'
+        ));
+
+        array_push($metaArray, array(
+          'key' => 'valor',
+          'value' => $valor - 10000,
+          'compare' => '>'
+        ));
+      }
+
+      $query = array( 
+        'post_type' => 'seminovo', 
+        'posts_per_page' => '9',
+        'meta_query' => $metaArray
+      ); 
+      ?>
+      <?php wp_reset_query(); query_posts( $query );  ?>
       <?php if ( have_posts() ) : ?>
       <?php while ( have_posts() ) : the_post(); ?>
 

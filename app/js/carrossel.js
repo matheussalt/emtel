@@ -14,8 +14,6 @@ export default function carrossel(
   let move = 0;
   let margem = 0;
 
-  console.log(carrossel, itens);
-
   if (!carrossel || !itens || !leftButton || !rightButton) return null;
 
   if (window.innerWidth < 768) {

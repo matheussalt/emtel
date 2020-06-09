@@ -36,6 +36,10 @@
 
   <?php wp_head(); ?>
 
+  <script>
+    var baseURL = '<?=site_url()?>'
+  </script>
+
 </head>
 
 <body>

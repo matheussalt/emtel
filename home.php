@@ -34,18 +34,17 @@ get_header(); ?>
   <div class="container">
     <form>
       <div class="filter-inputs">
-        <input type="text" name="nome" placeholder="Qual carro?" />
-        <input type="text" name="marca" placeholder="Marca" />
-        <input type="text" name="modelo" placeholder="Modelo" />
-        <input type="number" min="1970" max="2040" name="ano" placeholder="Ano" />
+        <input id="nome" type="text" name="nome" placeholder="Qual carro?" />
+        <input id="marca" type="text" name="marca" placeholder="Marca" />
+        <input id="modelo" type="text" name="modelo" placeholder="Modelo" />
+        <input id="ano" type="number" min="1970" max="2040" name="ano" placeholder="Ano" />
       </div>
 
       <div class="filter-preco">
         <span>Valor</span>
 
         <div class="filter-preco-control">
-          <span class="control-line"></span>
-          <span class="control-dot"></span>
+          <input id="valor" type="range" id="vol" name="vol" min="0" max="100">
         </div>
 
         <div class="control-values">
