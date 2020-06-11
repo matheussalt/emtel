@@ -58,11 +58,11 @@
   <header class="header">
     <div class="header-links">
       <div>
-        <a href="mailto:contato@emtel.com.br" class="header-email">
+        <a href="mailto:emtel@emteltrans.com.br" class="header-email">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#mail"></use>
           </svg>
-          <span>contato@emtel.com.br</span>
+          <span>emtel@emteltrans.com.br</span>
         </a>
 
         <div class="header-links-wrapper">

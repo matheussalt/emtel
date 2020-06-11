@@ -36,12 +36,12 @@ get_header(); ?>
           <span>+55 31 9 9999-9999</span>
         </a>
 
-        <a href="mailto:contato@email.com.br" target="_blank">
+        <a href="mailto:emtel@emteltrans.com.br" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#mail"></use>
           </svg>
 
-          <span>contato@email.com.br</span>
+          <span>emtel@emteltrans.com.br</span>
         </a>
 
         <a href="https://goo.gl/maps/QJd48BC8uPyXmfKq9" target="_blank">
