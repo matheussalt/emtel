@@ -14,10 +14,10 @@
         <?php if( have_rows('imagens') ): ?>
         <?php while( have_rows('imagens') ): the_row(); 
 
-        $imagem_1 = get_sub_field('imagem_1');
-        $imagem_2 = get_sub_field('imagem_2');
-        $imagem_3 = get_sub_field('imagem_3');
-        $imagem_4 = get_sub_field('imagem_4');
+        $imagem_1 = get_sub_field('imagem_1') ? get_sub_field('imagem_1') : '';
+        $imagem_2 = get_sub_field('imagem_2') ? get_sub_field('imagem_2') : '';
+        $imagem_3 = get_sub_field('imagem_3') ? get_sub_field('imagem_3') : '';
+        $imagem_4 = get_sub_field('imagem_4') ? get_sub_field('imagem_4') : '';
         ?>
 
         <div class="carro-galery">
@@ -148,6 +148,6 @@
     <h2>Conheça os seminovos emtel</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae massa quis mi rutrum dictum ut non libero.
       Aenean sed lobortis nibh, sit amet fringilla est. </p>
-    <a class="btn-cta" href="<?=site_url()?>/quem-somos">Ver mais</a>
+    <a class="btn-cta" href="<?=site_url()?>/seminovos">Ver mais</a>
   </div>
 </section>

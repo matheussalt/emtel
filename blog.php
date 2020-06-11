@@ -44,7 +44,7 @@ get_header(); ?>
     <h2>Conheça os seminovos emtel</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae massa quis mi rutrum dictum ut non libero.
       Aenean sed lobortis nibh, sit amet fringilla est. </p>
-    <a class="btn-cta" href="<?=site_url()?>/quem-somos">Ver mais</a>
+    <a class="btn-cta" href="<?=site_url()?>/seminovos">Ver mais</a>
   </div>
 </section>
 

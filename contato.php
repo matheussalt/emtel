@@ -44,12 +44,12 @@ get_header(); ?>
           <span>contato@email.com.br</span>
         </a>
 
-        <a href="https://gmaps.com" target="_blank">
+        <a href="https://goo.gl/maps/QJd48BC8uPyXmfKq9" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#pin"></use>
           </svg>
 
-          <span>Rua, Número - Bairro, Belo Horizonte - MG, CEP</span>
+          <span>Avenida Pastor Anselmo Silvestre 1111, Fernão Dias, BH-MG</span>
         </a>
       </address>
     </div>
@@ -61,7 +61,7 @@ get_header(); ?>
     <h2>Conheça os seminovos emtel</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae massa quis mi rutrum dictum ut non libero.
       Aenean sed lobortis nibh, sit amet fringilla est. </p>
-    <a class="btn-cta" href="<?=site_url()?>/quem-somos">Ver mais</a>
+    <a class="btn-cta" href="<?=site_url()?>/seminovos">Ver mais</a>
   </div>
 </section>
 

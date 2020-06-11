@@ -40,12 +40,12 @@
           <span>contato@email.com.br</span>
         </a>
 
-        <a href="https://gmaps.com" target="_blank">
+        <a href="https://goo.gl/maps/QJd48BC8uPyXmfKq9" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#pin"></use>
           </svg>
 
-          <span>Rua, Número - Bairro, Belo Horizonte - MG, CEP</span>
+          <span>Avenida Pastor Anselmo Silvestre 1111, Fernão Dias, BH-MG</span>
         </a>
       </div>
     </address>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="social-footer">
-      <a href="https://instagram.com" target="_blank">
+      <a href="https://instagram.com/seminovosemtel" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#instagram"></use>
         </svg>
