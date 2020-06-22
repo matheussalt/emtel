@@ -17,29 +17,22 @@ get_header(); ?>
     </div>
 
     <div class="sobre-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+      <p>A Emtel Seminovos surgiu com o objetivo de comercializar veículos, visando a qualidade, a
+        procedência e a satisfação de seus clientes!</p>
+      <p>Localizada em Belo Horizonte, e com mais de 26 anos de mercado, a Emtel Veículos vem se
+        destacando no mercado de seminovos devido ao comprometimento com valores
+        fundamentais, como seriedade, honestidade, respeito, segurança e confiança.</p>
+      <p>Comercializando veículos com ótimos preços e condições de pagamento – incluindo
+        financiamento, taxa de juros reduzidas e parcelas acessíveis –, a Emtel Seminovos trabalha
+        para que você possa realizar o seu sonho de ter um carro novo.</p>
+      <p>Comercializando veículos nacionais e importados, de todas as marcas, modelos, e com 100%
+        de garantia de procedência, a Emtel Seminovos está sempre renovando a frota de carros para
+        oferecer as melhores opções e os melhores negócios.</p>
+      <p>Na Emtel Seminovos, o seu carro usado passa por uma avaliação justa no processo de troca,
+        garantindo uma negociação assertiva e transparente. A empresa, também, oferece um
+        atendimento personalizado, que inclui serviços de despachante e cotação de seguros,
+        garantindo maior facilidade para você.</p>
+      <p>Compre o seu carro na Emtel Seminovos, aqui você realiza o seu sonho sobre quatro rodas!</p>
     </div>
 
     <div class="social">
@@ -68,7 +61,8 @@ get_header(); ?>
       </a>
     </div>
 
-    <img class="img-sobre" src="<?=get_template_directory_URI()?>/img/src/sobre.jpg" alt="Sobre" />
+    <img class="img-sobre" src="<?=get_template_directory_URI()?>/img/src/sobre.jpeg" alt="Sobre" />
+    <img class="img-sobre" src="<?=get_template_directory_URI()?>/img/src/sobre2.jpeg" alt="Sobre" />
   </div>
 </section>
 

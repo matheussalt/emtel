@@ -120,73 +120,30 @@ get_header(); ?>
       </button>
 
       <div class="carrossel-wrapper">
-        <div class="carrossel-item carro-item">
+
+        <?php wp_reset_query(); query_posts( array( 'post_type' => 'novo', 'posts_per_page' => '9' ) );  ?>
+        <?php if ( have_posts() ) : ?>
+        <?php while ( have_posts() ) : the_post(); ?>
+
+        <a href="<?=the_permalink()?>" class="carrossel-item carro-item">
           <div class="carro-item-img">
-            <img src="<?=get_template_directory_URI()?>/img/src/carro_teste.jpg" alt="<?=the_title()?>" />
+            <img src="<?=the_field('imagem_destaque')?>" alt="<?=the_title()?>" />
           </div>
 
           <div class="carro-item-txt">
             <div class="carro-item-info">
-              <strong>Nome do carro</strong>
-              <span>2020 | 20.000 Km</span>
+              <strong><?=the_title()?></strong>
+              <span><?=the_field('ano')?> | <?=the_field('km')?> Km</span>
             </div>
 
             <div class="carro-item-preco">
-              <strong>R$30.000</strong>
+              <strong>R$<?=the_field('valor')?></strong>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="carrossel-item carro-item">
-          <div class="carro-item-img">
-            <img src="<?=get_template_directory_URI()?>/img/src/carro_teste.jpg" alt="<?=the_title()?>" />
-          </div>
-
-          <div class="carro-item-txt">
-            <div class="carro-item-info">
-              <strong>Nome do carro</strong>
-              <span>2020 | 20.000 Km</span>
-            </div>
-
-            <div class="carro-item-preco">
-              <strong>R$30.000</strong>
-            </div>
-          </div>
-        </div>
-
-        <div class="carrossel-item carro-item">
-          <div class="carro-item-img">
-            <img src="<?=get_template_directory_URI()?>/img/src/carro_teste.jpg" alt="<?=the_title()?>" />
-          </div>
-
-          <div class="carro-item-txt">
-            <div class="carro-item-info">
-              <strong>Nome do carro</strong>
-              <span>2020 | 20.000 Km</span>
-            </div>
-
-            <div class="carro-item-preco">
-              <strong>R$30.000</strong>
-            </div>
-          </div>
-        </div>
-
-        <div class="carrossel-item carro-item">
-          <div class="carro-item-img">
-            <img src="<?=get_template_directory_URI()?>/img/src/carro_teste.jpg" alt="<?=the_title()?>" />
-          </div>
-
-          <div class="carro-item-txt">
-            <div class="carro-item-info">
-              <strong>Nome do carro</strong>
-              <span>2020 | 20.000 Km</span>
-            </div>
-
-            <div class="carro-item-preco">
-              <strong>R$30.000</strong>
-            </div>
-          </div>
-        </div>
+        <?php endwhile; ?>
+        <?php endif; wp_reset_query(); ?>
       </div>
 
       <button class="carrossel-right">

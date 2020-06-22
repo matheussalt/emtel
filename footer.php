@@ -16,28 +16,28 @@
       <h3>Contato:</h3>
 
       <div>
-        <a href="tel:+553133333333" target="_blank">
+        <a href="tel:+553134869292" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#tel"></use>
           </svg>
 
-          <span>+55 31 3333-3333</span>
+          <span>+55 31 3486-9292</span>
         </a>
 
-        <a href="https://wa.me/5531999999999" target="_blank">
+        <a href="https://wa.me/5531993070185" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#whatsapp"></use>
           </svg>
 
-          <span>+55 31 9 9999-9999</span>
+          <span>+55 31 9 99307-0185</span>
         </a>
 
-        <a href="mailto:emtel@emteltrans.com.br" target="_blank">
+        <a href="mailto:contato@emtelseminovos.com.br" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#mail"></use>
           </svg>
 
-          <span>emtel@emteltrans.com.br</span>
+          <span>contato@emtelseminovos.com.br</span>
         </a>
 
         <a href="https://goo.gl/maps/QJd48BC8uPyXmfKq9" target="_blank">
@@ -70,19 +70,20 @@
         </svg>
       </a>
 
-      <a href="https://youtube.com" target="_blank">
+      <a href="https://www.youtube.com/channel/UCN5ITdDIll0yI_wJSVsaPdA?view_as=subscriber" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#youtube"></use>
         </svg>
       </a>
 
-      <a href="https://twitter.com" target="_blank">
+      <a href="https://www.linkedin.com/company/emtel-seminovos/?viewAsMember=true" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
-          <use xlink:href="#twitter"></use>
+          <use xlink:href="#linkedin"></use>
         </svg>
       </a>
 
-      <a href="https://facebook.com" target="_blank">
+      <a href="https://www.facebook.com/pages/category/Automotive-Store/Emtel-Seminovos-108692770797136/"
+        target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#facebook"></use>
         </svg>

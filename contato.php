@@ -17,31 +17,31 @@ get_header(); ?>
     </div>
 
     <div class="contato-dados">
-      <img src="<?=get_template_directory_URI()?>/img/src/emtel_contato.jpg" alt="Emtel" />
+      <img src="<?=get_template_directory_URI()?>/img/src/emtel_contato.jpeg" alt="Emtel" />
 
       <address>
-        <a href="tel:+553133333333" target="_blank">
+        <a href="tel:+553134869292" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#tel"></use>
           </svg>
 
-          <span>+55 31 3333-3333</span>
+          <span>+55 31 3486-9292</span>
         </a>
 
-        <a href="https://wa.me/5531999999999" target="_blank">
+        <a href="https://wa.me/5531993070185" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#whatsapp"></use>
           </svg>
 
-          <span>+55 31 9 9999-9999</span>
+          <span>+55 31 9 99307-0185</span>
         </a>
 
-        <a href="mailto:emtel@emteltrans.com.br" target="_blank">
+        <a href="mailto:contato@emtelseminovos.com.br" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#mail"></use>
           </svg>
 
-          <span>emtel@emteltrans.com.br</span>
+          <span>contato@emtelseminovos.com.br</span>
         </a>
 
         <a href="https://goo.gl/maps/QJd48BC8uPyXmfKq9" target="_blank">

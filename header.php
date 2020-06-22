@@ -58,11 +58,11 @@
   <header class="header">
     <div class="header-links">
       <div>
-        <a href="mailto:emtel@emteltrans.com.br" class="header-email">
+        <a href="mailto:contato@emtelseminovos.com.br" class="header-email">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#mail"></use>
           </svg>
-          <span>emtel@emteltrans.com.br</span>
+          <span>contato@emtelseminovos.com.br</span>
         </a>
 
         <div class="header-links-wrapper">
@@ -81,12 +81,12 @@
       <div class="menu">
         <div class="menu-contatos">
           <div>
-            <a href="tel:+5531999999999" target="_blank">
+            <a href="tel:+553134869292" target="_blank">
               <svg width="32" height="32" viewBox="0 0 32 32">
                 <use xlink:href="#tel"></use>
               </svg>
 
-              <span>(31) 9999-9999</span>
+              <span>(31) 3486-9292</span>
             </a>
 
             <a href="" target="_blank">
