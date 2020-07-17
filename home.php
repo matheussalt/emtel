@@ -14,21 +14,33 @@ get_header(); ?>
 }
 </style>
 
+<?php if( have_rows('banner') ): ?>
+<?php while( have_rows('banner') ): the_row(); 
+
+$titulo = get_sub_field('titulo');
+$descricao = get_sub_field('descricao');
+$link = get_sub_field('link');
+$imagem = get_sub_field('imagem');
+?>
+
 <section class="banner">
   <div class="container">
     <div class="destaque">
       <div class="destaque-txt">
-        <h1>NISSAN KICKS, 1.0 Seminovo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae massa quis mi </p>
-        <a href="#" class="btn-cta">Ver mais</a>
+        <h1><?=$titulo?></h1>
+        <p><?=$descricao?></p>
+        <a href="<?=$link?>" class="btn-cta">Ver mais</a>
       </div>
 
       <div class="destaque-img">
-        <img src="<?=get_template_directory_URI()?>/img/src/carro.png" alt="Imagem de destaque" />
+        <img src="<?=$imagem?>" alt="Imagem de destaque" />
       </div>
     </div>
   </div>
 </section>
+
+<?php endwhile; ?>
+<?php endif; ?>
 
 <div class="filter filter-home">
   <div class="container">
@@ -156,8 +168,9 @@ get_header(); ?>
 <section class="parallax">
   <div class="container">
     <h2>Conheça os seminovos emtel</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae massa quis mi rutrum dictum ut non libero.
-      Aenean sed lobortis nibh, sit amet fringilla est. </p>
+    <p>"Comercializando veículos nacionais e importados, de todas as marcas, modelos, e com 100% de garantia de
+      procedência, a Emtel Seminovos está sempre renovando a frota de carros para oferecer as melhores opções e os
+      melhores negócios."</p>
     <a class="btn-cta" href="<?=site_url()?>/quem-somos">Ver mais</a>
   </div>
 </section>

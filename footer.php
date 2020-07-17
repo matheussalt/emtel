@@ -52,8 +52,6 @@
 
     <div class="newsletter">
       <h3>Newsletter</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae massa quis mi rutrum dictum ut non libero.
-        Aenean sed lobortis nibh, sit amet fringilla est. </p>
       <?php echo do_shortcode('[contact-form-7 id="26" title="Newsletter"]'); ?>
     </div>
 

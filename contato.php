@@ -59,8 +59,9 @@ get_header(); ?>
 <section class="parallax">
   <div class="container">
     <h2>Conheça os seminovos emtel</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae massa quis mi rutrum dictum ut non libero.
-      Aenean sed lobortis nibh, sit amet fringilla est. </p>
+    <p>"Comercializando veículos nacionais e importados, de todas as marcas, modelos, e com 100% de garantia de
+      procedência, a Emtel Seminovos está sempre renovando a frota de carros para oferecer as melhores opções e os
+      melhores negócios."</p>
     <a class="btn-cta" href="<?=site_url()?>/seminovos">Ver mais</a>
   </div>
 </section>
