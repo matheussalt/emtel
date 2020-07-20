@@ -40,7 +40,7 @@
           <span>contato@emtelseminovos.com.br</span>
         </a>
 
-        <a href="https://goo.gl/maps/QJd48BC8uPyXmfKq9" target="_blank">
+        <a href="https://goo.gl/maps/xd443Fu6KqHdy8tZ7" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#pin"></use>
           </svg>
@@ -91,7 +91,7 @@
 
   <div class="map">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.9404624252056!2d-43.96362168548923!3d-19.969005944679306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697f05e44fdcf%3A0x66b0096b32e0487!2sAg%C3%AAncia%20Salt%20-%20Design%20de%20Marcas%20em%20BH!5e0!3m2!1spt-BR!2sbr!4v1591470714323!5m2!1spt-BR!2sbr"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.048089502199!2d-43.918957685086276!3d-19.88019118663163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69a58168dadf1%3A0xc062c7d3e0dce594!2sAv.%20Pastor%20Anselmo%20Silvestre%2C%201111%20-%20Uni%C3%A3o%2C%20Belo%20Horizonte%20-%20MG%2C%2031170-710!5e0!3m2!1spt-BR!2sbr!4v1595256260448!5m2!1spt-BR!2sbr"
       frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
 
