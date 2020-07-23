@@ -66,9 +66,9 @@
         </a>
 
         <div class="header-links-wrapper">
-          <a href="<?=site_url()?>/"><span>Seminovos</span></a>
-          <a href="#"><span>Gestão de frotas</span></a>
-          <a href="#"><span>Aluguel de carros</span></a>
+          <a href="http://www.emteltrans.com.br/"><span>Grupo Emtel</span></a>
+          <a href="https://apoteosecorretora.com.br/"><span>Apoteose</span></a>
+          <a href="http://www.emteltrans.com.br/"><span>Carros para App</span></a>
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@
               <span>(31) 3486-9292</span>
             </a>
 
-            <a href="" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=+5531993070185" target="_blank">
               <svg width="32" height="32" viewBox="0 0 32 32">
                 <use xlink:href="#atendimento"></use>
               </svg>
