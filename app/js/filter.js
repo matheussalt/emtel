@@ -5,8 +5,31 @@ export default function filter() {
   const modelo = document.querySelector('#modelo');
   const ano = document.querySelector('#ano');
   const valor = document.querySelector('#valor');
+  const minValue = document.querySelector(
+    '.control-values span:nth-of-type(1)'
+  );
+  const maxValue = document.querySelector(
+    '.control-values span:nth-of-type(2)'
+  );
 
   if (!filter) return null;
+
+  valor.addEventListener('input', (e) => {
+    const value = (475000 * e.target.value) / 100 + 25000;
+
+    const min = new Intl.NumberFormat('pt-BR', {
+      style: 'currency',
+      currency: 'BRL',
+    }).format(value - 10000);
+
+    const max = new Intl.NumberFormat('pt-BR', {
+      style: 'currency',
+      currency: 'BRL',
+    }).format(value + 10000);
+
+    minValue.innerText = min;
+    maxValue.innerText = max;
+  });
 
   filter.addEventListener('submit', (e) => {
     e.preventDefault();

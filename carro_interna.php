@@ -85,8 +85,8 @@
         </div>
 
         <div class="control-values">
-          <span>R$25.000</span>
-          <span>R$500.000</span>
+          <span>R$ 25.000,00</span>
+          <span>R$ 500.000,00</span>
         </div>
       </div>
 
