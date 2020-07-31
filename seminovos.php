@@ -56,7 +56,7 @@ get_header(); ?>
         array_push($metaArray, array(
           'key' => 'nome',
           'value' => $nome,
-          'compare' => '='
+          'compare' => 'LIKE'
         ));
       }
       
@@ -64,7 +64,7 @@ get_header(); ?>
         array_push($metaArray, array(
           'key' => 'marca',
           'value' => $marca,
-          'compare' => '='
+          'compare' => 'LIKE'
         ));
       }
       
@@ -72,7 +72,7 @@ get_header(); ?>
         array_push($metaArray, array(
           'key' => 'modelo',
           'value' => $modelo,
-          'compare' => '='
+          'compare' => 'LIKE'
         ));
       }
       
