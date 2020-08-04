@@ -11,10 +11,12 @@ export default function filter() {
   const maxValue = document.querySelector(
     '.control-values span:nth-of-type(2)'
   );
+  let changedValue = false;
 
   if (!filter) return null;
 
   valor.addEventListener('input', (e) => {
+    changedValue = true;
     const value = (475000 * e.target.value) / 100 + 25000;
 
     const min = new Intl.NumberFormat('pt-BR', {
@@ -45,7 +47,7 @@ export default function filter() {
       marca: marca.value,
       modelo: modelo.value,
       ano: ano.value,
-      valor: between(valor.value),
+      valor: changedValue ? between(valor.value) : '',
     };
 
     window.location.href = `${baseURL}/seminovos/?nome=${submitJson.nome}&marca=${submitJson.marca}&modelo=${submitJson.modelo}&ano=${submitJson.ano}&valor=${submitJson.valor}`;
