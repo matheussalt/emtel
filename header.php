@@ -67,7 +67,7 @@
 
         <div class="header-links-wrapper">
           <a href="http://www.emteltrans.com.br/"><span>Grupo Emtel</span></a>
-          <a href="https://apoteosecorretora.com.br/"><span>Apoteose</span></a>
+          <a href="https://apoteosecorretora.com.br/"><span>Seguros</span></a>
           <a href="http://www.emteltrans.com.br/"><span>Carros para App</span></a>
         </div>
       </div>
