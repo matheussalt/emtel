@@ -100,7 +100,7 @@ get_header(); ?>
 
       $query = array( 
         'post_type' => 'seminovo', 
-        'posts_per_page' => '9',
+        'posts_per_page' => -1,
         'meta_query' => $metaArray
       ); 
       ?>
